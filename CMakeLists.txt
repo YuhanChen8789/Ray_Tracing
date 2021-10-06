@@ -19,7 +19,7 @@ endif()
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/src")
 
 ### Include Eigen for linear algebra
-include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../ext/eigen")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/ext/eigen")
 
 ### Compile all the cpp files in src
 file(GLOB SOURCES
